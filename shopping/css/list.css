@@ -1,0 +1,123 @@
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    border-left: 1px solid #c81523;
+    left: 190px;
+    top: 40px;
+    padding:3px 0 0 14px;
+}
+.sk_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 45px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 45px;
+    color: black;
+
+}
+.sk_con{
+    float: left;
+}
+.sk_con ul li{
+    float: left;
+}
+/* 这里如果给color加上颜色的话，style_red所占的权值值太小，无法显示相应的颜色 */
+.sk_con ul li a {
+    display: block;
+    padding: 0px 23px;
+    /* 如果实现小字号的文字和大字号的文字底部对齐，需要使小字号的文字line-height稍微调大一点 */
+    line-height: 47px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e916';
+    font-family: 'icomoon';
+    margin-left: 6px;
+    color: #22cdec;
+}
+.sk_bd ul li {
+    overflow: hidden;
+    margin-right: 10.5px;
+    float: left;
+    border: 1px solid transparent;
+    width: 290px;
+    height: 460px;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81553
+}
+.sk_bd ul li img {
+    width: 100%;
+    height: 295px;
+}
+.sk_bd ul li .pro_con {
+    width: 100%;
+    height: 50px;
+    color: #747474;
+    font-size: 12px;
+    text-align: center;
+}
+.sale {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+}
+.sale_up p {
+    display: inline-block;
+    font-size: 14px;
+    color: #e60012;
+}
+.sale_up h2 {
+    display: inline-block;
+    font-size: 22px;
+    color: #e60012;
+}
+#nosale {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+.sale_bot p {
+    position: absolute;
+    top: 37px;
+    left: 15px;
+    color: #666666;
+    font-size: 14px;
+}
+.sale_bot meter {
+    border-radius: 6px;
+    overflow: hidden;
+    width: 125px;
+    height: 20px;
+    margin-top: 5px;
+}
+#sale_le {
+    position: absolute;
+    top: 36px;
+    left: 220px;
+}
+.sk_bd ul li button {
+    height: 50px;
+    width: 290px;
+    background-color: #b1191a;
+    color: white;
+    font-size: 20px;
+}

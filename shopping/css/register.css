@@ -1,0 +1,124 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.style_red {
+    color: #c81623;
+}
+/* 头部模块 */
+.header {
+    height: 82px;
+    border-bottom: 2px solid #c81623;
+}
+.header img {
+    margin-top: 16px;
+}
+.registerarea {
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #dddddd;
+}
+.registerarea .hd{
+    height: 43px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dddddd;
+}
+.registerarea .hd h2{
+    float: left;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 43px;
+}
+.registerarea .hd p{
+    float: right;
+    font-size: 14px;
+    padding-right: 10px;
+    line-height: 43px;
+}
+.reg-form {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.reg-form ul li {
+    margin-bottom: 20px;
+}
+.reg-form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg-form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: #c81523;
+}
+.error_icon, .suceess_icon {
+    display: inline-block;
+    /* 图片和文字对齐的方法：
+    进行垂直居中，给行内块元素（将图片转为行内块元素）进行vertical-align:middle即可 */
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    margin-top: -2px;
+    margin-right: 2px;
+}
+.suceess {
+    color: #40b83f;
+}
+.suceess_icon {
+    background: url(../images/error.png) no-repeat;
+}
+.safe {
+    padding-left: 170px;
+}
+.safe em {
+    padding: 0 12px;
+    color: white;
+}
+.ruo {
+    background-color: red;
+}
+.zhong {
+    background-color: green;
+}
+.qiang {
+    background-color: orange;
+}
+.agree {
+    padding-left: 115px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    font-size: 12px;
+    color: skyblue;
+}
+.ensure {
+    padding-left: 115px;
+}
+.ensure button{
+    width: 200px;
+    height: 35px;
+    font-size: 14px;
+    color: white;
+    background-color: #c81523;
+}
+.company .links {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+.company .links a{
+    margin: 0 14px;
+}
+.company p{
+    text-align: center;
+}
